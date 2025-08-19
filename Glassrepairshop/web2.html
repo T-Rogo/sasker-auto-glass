@@ -1,0 +1,226 @@
+<!DOCTYPE html> <!-- Declares the document as an HTML5 file -->
+<html lang="en"> <!-- Sets the language of the document to English -->
+<head>
+  <meta charset="UTF-8" /> <!-- Sets character encoding to UTF-8 for special characters -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Makes site responsive on mobile -->
+  <title>Sasker Auto Glass & Repair</title> <!-- Title shown in browser tab -->
+
+  <style>
+    body {
+      background-image: url('IMG_0764.JPG'); /* Background image */
+      background-size: cover; /* Covers entire screen */
+      background-position: center; /* Centers the image */
+      background-repeat: no-repeat; /* No repeat */
+      font-family: Arial, sans-serif; /* Sets font */
+      margin: 0; /* Removes default margin */ 
+      padding: 0; /* Removes default padding */ 
+      background-color: #f8f0f0; /* Light gray background */
+    }
+
+    header {
+      background-color: #003366; /* Dark blue background */
+      color: white; /* White text */
+      padding: 1.5rem; /* Space inside header */
+      text-align: center; /* Centers text */
+    }
+
+    header h1 {
+      margin: 0; /* Removes margin around h1 */
+      font-size: 2.5rem; /* Sets font size */
+    }
+
+    .logo {
+      width: 150px; /* Width of logo */
+      height: auto; /* Keep aspect ratio */
+      margin-bottom: 1rem; /* Space below logo */
+    }
+    
+
+    nav {
+      background-color: #1261b0; /* Medium blue background */
+      padding: 0.8rem; /* Space inside nav bar */
+      text-align: center; /* Centers nav content */
+    }
+
+    nav ul {
+      list-style: none; /* Removes bullet points */
+      margin: 0; /* Removes margin */
+      padding: 0; /* Removes padding */
+      display: flex; /* Displays items in a row */
+      justify-content: center; /* Centers nav items */
+    }
+
+    nav ul li {
+      margin: 0 1rem; /* Space between items */
+    }
+
+    nav ul li a {
+      text-decoration: none; /* Removes underline */
+      color: rgb(248, 244, 244); /* White links */
+      font-weight: bold; /* Makes links bold */
+    }
+
+    main {
+      padding: 2.0rem; /* Space inside main section */
+      background-color: rgb(255, 255, 255); /* White background */
+      max-width: 800px; /* Max width */
+      margin: 2rem auto; /* Centers main on page */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds subtle shadow */
+    }
+
+    .service-section {
+      margin-bottom: 2rem; /* Space between services */
+    }
+
+    .service-title {
+      font-size: 1.5rem; /* Title font size */
+      margin-bottom: 0.5rem; /* Space below title */
+      color: #0059b3; /* Blue text */
+    }
+
+    .service-description {
+      color: #555; /* Gray text */
+      font-size: 1rem; /* Normal font size */
+      margin-bottom: 1rem; /* Space below description */
+    }
+
+    .contact-info {
+      background-color: #003366; /* Dark blue background */
+      color: white; /* White text */
+      padding: 1.5rem; /* Space inside section */
+      margin-top: 2rem; /* Space above section */
+      text-align: center; /* Centered text */
+    }
+
+    footer {
+      background-color: #003366; /* Dark blue background */
+      color: white; /* White text */
+      text-align: center; /* Centered text */
+      padding: 1rem; /* Space inside footer */
+      margin-top: 3rem; /* Space above footer */
+    }
+
+    footer a {
+      color: #ffd700; /* Gold link color */
+      text-decoration: none; /* No underline */
+      font-weight: bold; /* Bold links */
+    }
+
+    footer a:hover {
+      text-decoration: underline; /* Underline on hover */
+    }
+
+    .cta-btn {
+      background-color: #0059b3; /* Blue button background */
+      color: white; /* White text */
+      padding: 1rem; /* Inside space */
+      text-align: center; /* Centered text */
+      font-size: 1.2rem; /* Font size */
+      display: block; /* Block level */
+      border-radius: 5px; /* Rounded corners */
+      width: 250px; /* Button width */
+      margin: 0 auto; /* Center button */
+      cursor: pointer; /* Pointer cursor on hover */
+    }
+
+    .cta-btn:hover {
+      background-color: #004080; /* Darker blue on hover */
+    }
+
+    @media (max-width: 600px) { /* Styles for screens smaller than 600px */
+      header h1 {
+        font-size: 1.8rem; /* Smaller font */
+      }
+
+      nav ul {
+        flex-direction: column; /* Stack nav items */
+      }
+
+      nav ul li {
+        margin: 0.5rem 0; /* Space between stacked items */
+      }
+
+      main {
+        padding: 1rem; /* Smaller padding on small screens */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src=FinalLogo.png alt="Sasker Logo" class="logo" /> <!-- Company logo -->
+    <h1>Sasker Auto Glass & Repair</h1> <!-- Site title -->
+    <p>Your Trusted Auto Glass Service</p> <!-- Subtitle or slogan -->
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#services">Services</a></li> <!-- Link to services section -->
+      <li><a href="#contact">Contact</a></li> <!-- Link to contact section -->
+      <li><a href="#hours">Business Hours</a></li> <!-- Link to hours section -->
+    </ul>
+  </nav>
+
+  <main id="services">
+    <!-- Each section below describes a service offered -->
+    <section class="service-section">
+      <h2 class="service-title">Windshield Repair & Recalibration</h2>
+      <p class="service-description">Our certified technicians replace and recalibrate windshields to factory safety standards using advanced equipment.</p>
+      
+    </section>
+
+    <section class="service-section">
+      <h2 class="service-title">Chip Repairs</h2>
+      <p class="service-description">We provide quick, efficient chip repairs that restore your windshield to its original strength.</p>
+     
+    </section>
+
+    <section class="service-section">
+      <h2 class="service-title">Side Glass Replacement</h2>
+      <p class="service-description">We replace side windows, ensuring a perfect fit with the highest quality glass.</p>
+     
+    </section>
+
+    <section class="service-section">
+      <h2 class="service-title">Oil Changes</h2>
+      <p class="service-description">Keep your engine running smoothly with our oil change services, ensuring optimal vehicle performance.</p>
+     
+    </section>
+
+    <section class="service-section">
+      <h2 class="service-title">Battery Replacements</h2>
+      <p class="service-description">Ensure you're always ready to go with our fast and reliable battery replacement services.</p>
+      
+    </section>
+
+    <section class="service-section">
+      <h2 class="service-title">Wiper Blade Replacement</h2>
+      <p class="service-description">Improve your visibility in any weather with our high-quality wiper blade replacement services.</p>
+      <a href="tel:5078470992" class="cta-btn">Call Now</a>
+    </section>
+  </main>
+
+  <section id="hours">
+    <div class="contact-info">
+      <h2>Business Hours</h2> <!-- Business hours header -->
+      <p>Monday to Friday: 8:00 AM – 5:00 PM</p> <!-- Hours listed -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-info">
+      <h2>Contact Us</h2> <!-- Contact section header -->
+      <p><strong>Phone:</strong> <a href="tel:5078470992">507-847-0992</a></p> <!-- Click-to-call link -->
+      <p><strong>Email:</strong> <a href="mailto:Saskerautoglass@hotmail.com">Saskerautoglass@hotmail.com</a></p> <!-- Click-to-email link -->
+      <a href="mailto:Saskerautoglass@hotmail.com" class="cta-btn">Email Us</a> <!-- Email CTA button -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sasker Auto Glass & Repair. All rights reserved.</p> <!-- Footer copyright -->
+  </footer>
+
+</body>
+</html>
